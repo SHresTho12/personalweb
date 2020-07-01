@@ -52,7 +52,7 @@ section{
     background-image: url("biography-bg.png");
     background-repeat: no-repeat;
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 #bio{
     color: rgb(238, 143, 79);
@@ -66,4 +66,80 @@ section{
     background-color: rgb(165, 247, 34);
     font-weight: 700;
   font-size: 20px;
+}
+.work{
+    float: left;
+    width: 15%;
+    margin-left: 3%;
+    padding: 3%;
+    height: 50%;
+    
+    box-shadow: 10px 10px 40px lightsteelblue ;
+    display: block; 
+   
+
+}
+.im{
+   
+    width: 100%;
+   
+  
+
+}
+#lastwork{
+    text-align: center;
+}
+
+.last{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.workname{
+    color: rgb(189, 123, 243);
+}
+#lastwork{
+    border-radius: 5px;
+    padding:10px 20px;
+    color: rgb(60, 62, 65);
+    
+    font-weight: 700;
+}
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.foot{
+    text-align: center;
+}
+.dlast{
+    position: relative;
+    left: 20%;
+    background-color: rgb(240, 183, 193);
+    width: 60%;
+    align-content: center;
+    box-shadow: 10px 10px 40px rgb(226, 128, 98) ;
+    padding: 10px;
+    height: 250px;;
+    
+}
+.logo{
+    position: relative;
+    float: left;
+    width:10%;
+ margin: 10%;
+ bottom:30%;
+}
+.llogo{
+    width:100px;
+    height: 100px;
+    padding: 20%;
+    margin:10%;
+}
+#credit{
+    position: relative;
+    top: 70px;
+right: 40px;
+    text-align: center;
 }
